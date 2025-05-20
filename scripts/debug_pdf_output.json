@@ -1,0 +1,4446 @@
+{
+  "document": {
+    "page": [
+      {
+        "row": [
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "12.0",
+                  "x": "407.02",
+                  "y": "12.84",
+                  "width": "144.26",
+                  "height": "12.00",
+                  "text": "N°: 202585514L00405921 N°: 202585514L00405921"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "16.0",
+                  "x": "225.41",
+                  "y": "116.06",
+                  "width": "171.77",
+                  "height": "15.96",
+                  "text": "RECORD ACADEMICO RECORD ACADEMICO"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "45.00",
+                  "y": "154.94",
+                  "width": "12.62",
+                  "height": "9.96",
+                  "text": "ID: ID:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "109.94",
+                  "y": "154.94",
+                  "width": "49.20",
+                  "height": "9.96",
+                  "text": "L00405921 L00405921"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "329.95",
+                  "y": "154.94",
+                  "width": "44.40",
+                  "height": "9.96",
+                  "text": "CEDULA: CEDULA:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "410.02",
+                  "y": "154.94",
+                  "width": "54.60",
+                  "height": "9.96",
+                  "text": "17502482031750248203"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "45.00",
+                  "y": "169.94",
+                  "width": "53.66",
+                  "height": "9.96",
+                  "text": "NOMBRES: NOMBRES:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "109.94",
+                  "y": "169.94",
+                  "width": "173.57",
+                  "height": "9.96",
+                  "text": "ARIAS VINUEZA XAVIER SEBASTIAN ARIAS VINUEZA XAVIER SEBASTIAN"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "329.95",
+                  "y": "169.94",
+                  "width": "63.63",
+                  "height": "9.96",
+                  "text": "MODALIDAD: MODALIDAD:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "410.02",
+                  "y": "169.94",
+                  "width": "62.40",
+                  "height": "9.96",
+                  "text": "PRESENCIALPRESENCIAL"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "45.00",
+                  "y": "184.82",
+                  "width": "187.01",
+                  "height": "9.96",
+                  "text": "PROGRAMA: SOFTWARE - PROG_ISOJ PROGRAMA: SOFTWARE - PROG_ISOJ"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "39.96",
+                  "y": "209.06",
+                  "width": "193.01",
+                  "height": "8.04",
+                  "text": "PERIODO: 202051 PREGRADO S-II NOV20 - ABR21"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "222.74",
+                  "width": "16.70",
+                  "height": "9.96",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "224.90",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "224.90",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "224.90",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.51",
+                  "y": "224.90",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.06",
+                  "y": "224.90",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "234.26",
+                  "width": "3.59",
+                  "height": "9.96",
+                  "text": "1"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "238.10",
+                  "width": "46.20",
+                  "height": "8.04",
+                  "text": "CHUMA0100"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "238.10",
+                  "width": "130.83",
+                  "height": "8.04",
+                  "text": "METOD. DE LA INVESTG. CIENTIF."
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "238.10",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.51",
+                  "y": "238.10",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.06"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.06",
+                  "y": "238.10",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "245.81",
+                  "width": "3.59",
+                  "height": "9.96",
+                  "text": "2"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "251.33",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G01"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "251.33",
+                  "width": "143.19",
+                  "height": "8.04",
+                  "text": "FUNDAMENTOS DE LA INGENIERIA D"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "251.33",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.51",
+                  "y": "251.33",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "15.36"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.06",
+                  "y": "251.33",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "264.41",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "3"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "264.41",
+                  "width": "45.84",
+                  "height": "8.04",
+                  "text": "COMPA0J01"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "264.41",
+                  "width": "105.51",
+                  "height": "8.04",
+                  "text": "FUND. DE PROGRAMACION"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "264.41",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.51",
+                  "y": "264.41",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "12.15"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.06",
+                  "y": "264.41",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "280.25",
+                  "width": "3.59",
+                  "height": "9.96",
+                  "text": "4"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "277.61",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0201"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "277.61",
+                  "width": "38.19",
+                  "height": "8.04",
+                  "text": "QUÍMICA I"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "277.61",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.51",
+                  "y": "277.61",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "17.90"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.06",
+                  "y": "277.61",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "291.77",
+                  "width": "3.59",
+                  "height": "9.96",
+                  "text": "5"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "290.81",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0301"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "290.81",
+                  "width": "141.87",
+                  "height": "8.04",
+                  "text": "CÁLCULO DIFERENCIAL E INTEGRAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "290.81",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.51",
+                  "y": "290.81",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "12.23"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.06",
+                  "y": "290.81",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "303.29",
+                  "width": "3.59",
+                  "height": "9.96",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "304.01",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0302"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "304.01",
+                  "width": "66.99",
+                  "height": "8.04",
+                  "text": "ÁLGEBRA LINEAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "304.01",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.51",
+                  "y": "304.01",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.21"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.06",
+                  "y": "304.01",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "39.96",
+                  "y": "323.45",
+                  "width": "189.89",
+                  "height": "8.04",
+                  "text": "PERIODO: 202150 PREGRADO S-I MAY21 - SEP21"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "337.25",
+                  "width": "17.06",
+                  "height": "8.04",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.26",
+                  "y": "337.25",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "130.58",
+                  "y": "337.25",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "311.47",
+                  "y": "337.25",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "367.39",
+                  "y": "337.25",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "431.38",
+                  "y": "337.25",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "350.45",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "7"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.26",
+                  "y": "350.45",
+                  "width": "45.84",
+                  "height": "8.04",
+                  "text": "COMPA0J01"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "130.58",
+                  "y": "350.45",
+                  "width": "105.51",
+                  "height": "8.04",
+                  "text": "FUND. DE PROGRAMACION"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "311.47",
+                  "y": "350.45",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "367.39",
+                  "y": "350.45",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.10"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "431.38",
+                  "y": "350.45",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "360.77",
+                  "width": "3.59",
+                  "height": "9.96",
+                  "text": "8"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.26",
+                  "y": "363.65",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0301"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "130.58",
+                  "y": "363.65",
+                  "width": "141.87",
+                  "height": "8.04",
+                  "text": "CÁLCULO DIFERENCIAL E INTEGRAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "311.47",
+                  "y": "363.65",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "367.39",
+                  "y": "363.65",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "19.05"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "431.38",
+                  "y": "363.65",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "383.81",
+                  "width": "186.16",
+                  "height": "9.96",
+                  "text": "PERIODO: 202151 PREGRADO S-II OCT21-MAR22"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "396.89",
+                  "width": "17.06",
+                  "height": "8.04",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "396.89",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.78",
+                  "y": "396.89",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.67",
+                  "y": "396.89",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.55",
+                  "y": "396.89",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.38",
+                  "y": "396.89",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "406.87",
+                  "width": "3.59",
+                  "height": "9.96",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "409.99",
+                  "width": "45.84",
+                  "height": "8.04",
+                  "text": "COMPA0J08"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.78",
+                  "y": "409.99",
+                  "width": "121.11",
+                  "height": "8.04",
+                  "text": "PROG. ORIENTADA A OBJETOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.67",
+                  "y": "409.99",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "12"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.55",
+                  "y": "409.99",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.02"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.38",
+                  "y": "409.99",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "418.27",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "10"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "423.19",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0001"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.78",
+                  "y": "423.19",
+                  "width": "29.76",
+                  "height": "8.04",
+                  "text": "FÍSICA I"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.67",
+                  "y": "423.19",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.55",
+                  "y": "423.19",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.29"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.38",
+                  "y": "423.19",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "436.39",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "11"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "436.39",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0303"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.78",
+                  "y": "436.39",
+                  "width": "84.51",
+                  "height": "8.04",
+                  "text": "CÁLCULO VECTORIAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.67",
+                  "y": "436.39",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.55",
+                  "y": "436.39",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.90"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.38",
+                  "y": "436.39",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "452.83",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "12"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "449.59",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0401"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.78",
+                  "y": "449.59",
+                  "width": "130.11",
+                  "height": "8.04",
+                  "text": "EC. DIFERENCIALES ORDINARIAS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.67",
+                  "y": "449.59",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.55",
+                  "y": "449.59",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "11.23"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.38",
+                  "y": "449.59",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "462.79",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "13"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "462.79",
+                  "width": "44.88",
+                  "height": "8.04",
+                  "text": "SEGDA0000"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.78",
+                  "y": "462.79",
+                  "width": "45.39",
+                  "height": "8.04",
+                  "text": "LIDERAZGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.67",
+                  "y": "462.79",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.55",
+                  "y": "462.79",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.18"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.38",
+                  "y": "462.79",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "39.96",
+                  "y": "482.35",
+                  "width": "189.89",
+                  "height": "8.04",
+                  "text": "PERIODO: 202250 PREGRADO S-I MAYO-SEPT 22"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "496.03",
+                  "width": "17.06",
+                  "height": "8.04",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.62",
+                  "y": "496.03",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.74",
+                  "y": "496.03",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.27",
+                  "y": "496.03",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.91",
+                  "y": "496.03",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.74",
+                  "y": "496.03",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "509.23",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "14"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.62",
+                  "y": "509.23",
+                  "width": "46.68",
+                  "height": "8.04",
+                  "text": "COMPA0F03"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.74",
+                  "y": "509.23",
+                  "width": "115.11",
+                  "height": "8.04",
+                  "text": "MODELOS DISC PARA ING SO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.27",
+                  "y": "509.23",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.91",
+                  "y": "509.23",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "17.60"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.74",
+                  "y": "509.23",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "522.43",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "15"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.62",
+                  "y": "522.43",
+                  "width": "45.84",
+                  "height": "8.04",
+                  "text": "COMPA0J09"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.74",
+                  "y": "522.43",
+                  "width": "97.35",
+                  "height": "8.04",
+                  "text": "ESTRUCTURA DE DATOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.27",
+                  "y": "522.43",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.91",
+                  "y": "522.43",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "10.09"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.74",
+                  "y": "522.43",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "533.35",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "16"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.62",
+                  "y": "535.63",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0401"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.74",
+                  "y": "535.63",
+                  "width": "130.11",
+                  "height": "8.04",
+                  "text": "EC. DIFERENCIALES ORDINARIAS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.27",
+                  "y": "535.63",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.91",
+                  "y": "535.63",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.72"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.74",
+                  "y": "535.63",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "544.75",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "17"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.62",
+                  "y": "548.83",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0501"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.74",
+                  "y": "548.83",
+                  "width": "51.39",
+                  "height": "8.04",
+                  "text": "ESTADÍSTICA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.27",
+                  "y": "548.83",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.91",
+                  "y": "548.83",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.37"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.74",
+                  "y": "548.83",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "556.27",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "18"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.62",
+                  "y": "562.03",
+                  "width": "44.88",
+                  "height": "8.04",
+                  "text": "SEGDA0100"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.74",
+                  "y": "562.03",
+                  "width": "124.35",
+                  "height": "8.04",
+                  "text": "REALIDAD NAC. Y GEOPOLÍTICA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.27",
+                  "y": "562.03",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.91",
+                  "y": "562.03",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "17.48"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.74",
+                  "y": "562.03",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "575.23",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "19"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.62",
+                  "y": "575.23",
+                  "width": "44.88",
+                  "height": "8.04",
+                  "text": "TCONA0304"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.74",
+                  "y": "575.23",
+                  "width": "84.51",
+                  "height": "8.04",
+                  "text": "CULTURA AMBIENTAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.27",
+                  "y": "575.23",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.91",
+                  "y": "575.23",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "15.36"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.74",
+                  "y": "575.23",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "590.86",
+                  "width": "195.04",
+                  "height": "9.96",
+                  "text": "PERIODO: 202251 PREGRADO S-II OCT 22 - MAR 23"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "608.50",
+                  "width": "17.06",
+                  "height": "8.04",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.90",
+                  "y": "608.50",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.90",
+                  "y": "608.50",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "315.07",
+                  "y": "608.50",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "370.15",
+                  "y": "608.50",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "433.30",
+                  "y": "608.50",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "625.30",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "20"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.90",
+                  "y": "621.70",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G04"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.90",
+                  "y": "621.70",
+                  "width": "108.39",
+                  "height": "8.04",
+                  "text": "INGENIERIA DE USABILIDAD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "315.07",
+                  "y": "621.70",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "370.15",
+                  "y": "621.70",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.70"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "433.30",
+                  "y": "621.70",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "634.90",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "21"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.90",
+                  "y": "634.90",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G06"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.90",
+                  "y": "634.90",
+                  "width": "145.95",
+                  "height": "8.04",
+                  "text": "MOD DE PROC DESARRO SOFTWARE"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "315.07",
+                  "y": "634.90",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "370.15",
+                  "y": "634.90",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.92"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "433.30",
+                  "y": "634.90",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "648.10",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "22"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.90",
+                  "y": "648.10",
+                  "width": "44.04",
+                  "height": "8.04",
+                  "text": "COMPA0I01"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.90",
+                  "y": "648.10",
+                  "width": "92.67",
+                  "height": "8.04",
+                  "text": "COMPUTACION DIGITAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "315.07",
+                  "y": "648.10",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "370.15",
+                  "y": "648.10",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "17.49"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "433.30",
+                  "y": "648.10",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "661.30",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "23"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.90",
+                  "y": "661.30",
+                  "width": "47.16",
+                  "height": "8.04",
+                  "text": "COMPA0K01"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.90",
+                  "y": "661.30",
+                  "width": "124.23",
+                  "height": "8.04",
+                  "text": "INV. INGENIERIA DE SOFTWARE"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "315.07",
+                  "y": "661.30",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "370.15",
+                  "y": "661.30",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.06"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "433.30",
+                  "y": "661.30",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "682.78",
+                  "width": "191.56",
+                  "height": "9.96",
+                  "text": "PERIODO: 202350 PREGRADO S-I MAY 23 - SEP 23"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "694.54",
+                  "width": "17.06",
+                  "height": "8.04",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "694.54",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.58",
+                  "y": "694.54",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.07",
+                  "y": "694.54",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.07",
+                  "y": "694.54",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.14",
+                  "y": "694.54",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "705.82",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "24"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "707.62",
+                  "width": "44.04",
+                  "height": "8.04",
+                  "text": "COMPA0I07"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.58",
+                  "y": "707.62",
+                  "width": "110.43",
+                  "height": "8.04",
+                  "text": "REDES DE COMPUTADORES"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.07",
+                  "y": "707.62",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.07",
+                  "y": "707.62",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "15.65"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.14",
+                  "y": "707.62",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "150.02",
+                  "y": "801.00",
+                  "width": "66.15",
+                  "height": "6.96",
+                  "text": "MSc. Oscar Rubio G. MSc. Oscar Rubio G."
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "370.51",
+                  "y": "801.84",
+                  "width": "73.95",
+                  "height": "6.96",
+                  "text": "Dr. Marcelo Mejía Mena Dr. Marcelo Mejía Mena"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "120.02",
+                  "y": "809.04",
+                  "width": "138.15",
+                  "height": "6.96",
+                  "text": "DIRECTOR DE LA UNIDAD DE REGISTRO DIRECTOR DE LA UNIDAD DE REGISTRO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "361.03",
+                  "y": "809.88",
+                  "width": "90.75",
+                  "height": "6.96",
+                  "text": "SECRETARIO ACADEMICO SECRETARIO ACADEMICO"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "39.96",
+                  "y": "818.64",
+                  "width": "40.46",
+                  "height": "8.04",
+                  "text": "Pág. 1 de 2 Pág. 1 de 2"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "494.98",
+                  "y": "818.64",
+                  "width": "72.62",
+                  "height": "8.04",
+                  "text": "14-05-2025 2:18 PM 14-05-2025 2:18 PM"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "495.94",
+                  "y": "827.88",
+                  "width": "70.34",
+                  "height": "6.96",
+                  "text": "ESPEMATICO V:3.1.3 ESPEMATICO V:3.1.3"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "row": [
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "12.0",
+                  "x": "407.02",
+                  "y": "12.84",
+                  "width": "144.26",
+                  "height": "12.00",
+                  "text": "N°: 202585514L00405921 N°: 202585514L00405921"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "16.0",
+                  "x": "225.41",
+                  "y": "116.06",
+                  "width": "171.77",
+                  "height": "15.96",
+                  "text": "RECORD ACADEMICO RECORD ACADEMICO"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "45.00",
+                  "y": "154.10",
+                  "width": "12.74",
+                  "height": "9.96",
+                  "text": "ID: ID:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "109.94",
+                  "y": "154.94",
+                  "width": "49.20",
+                  "height": "9.96",
+                  "text": "L00405921 L00405921"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "329.95",
+                  "y": "154.94",
+                  "width": "44.40",
+                  "height": "9.96",
+                  "text": "CEDULA: CEDULA:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "410.02",
+                  "y": "154.94",
+                  "width": "54.60",
+                  "height": "9.96",
+                  "text": "17502482031750248203"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "45.00",
+                  "y": "169.10",
+                  "width": "53.66",
+                  "height": "9.96",
+                  "text": "NOMBRES: NOMBRES:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "109.94",
+                  "y": "169.94",
+                  "width": "173.57",
+                  "height": "9.96",
+                  "text": "ARIAS VINUEZA XAVIER SEBASTIAN ARIAS VINUEZA XAVIER SEBASTIAN"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "329.95",
+                  "y": "169.94",
+                  "width": "63.63",
+                  "height": "9.96",
+                  "text": "MODALIDAD: MODALIDAD:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "410.02",
+                  "y": "169.94",
+                  "width": "62.40",
+                  "height": "9.96",
+                  "text": "PRESENCIALPRESENCIAL"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "45.00",
+                  "y": "184.82",
+                  "width": "187.01",
+                  "height": "9.96",
+                  "text": "PROGRAMA: SOFTWARE - PROG_ISOJ PROGRAMA: SOFTWARE - PROG_ISOJ"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "211.34",
+                  "width": "16.70",
+                  "height": "9.96",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "214.82",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.46",
+                  "y": "214.82",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.19",
+                  "y": "214.82",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.07",
+                  "y": "214.82",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.14",
+                  "y": "214.82",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "222.74",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "25"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "228.02",
+                  "width": "45.84",
+                  "height": "8.04",
+                  "text": "COMPA0J09"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.46",
+                  "y": "228.02",
+                  "width": "97.35",
+                  "height": "8.04",
+                  "text": "ESTRUCTURA DE DATOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.19",
+                  "y": "228.02",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.07",
+                  "y": "228.02",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.54"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.14",
+                  "y": "228.02",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "241.25",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "26"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "241.25",
+                  "width": "45.84",
+                  "height": "8.04",
+                  "text": "COMPA0J13"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.46",
+                  "y": "241.25",
+                  "width": "97.11",
+                  "height": "8.04",
+                  "text": "COMPUTACION GRAFICA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.19",
+                  "y": "241.25",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.07",
+                  "y": "241.25",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "15.59"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.14",
+                  "y": "241.25",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "257.33",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "27"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "254.45",
+                  "width": "47.16",
+                  "height": "8.04",
+                  "text": "COMPA0K03"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.46",
+                  "y": "254.45",
+                  "width": "127.95",
+                  "height": "8.04",
+                  "text": "LEC. ESC. TEXTOS ACADEMICOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.19",
+                  "y": "254.45",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.07",
+                  "y": "254.45",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "15.76"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.14",
+                  "y": "254.45",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "268.85",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "28"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "69.74",
+                  "y": "267.65",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0402"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.46",
+                  "y": "267.65",
+                  "width": "90.75",
+                  "height": "8.04",
+                  "text": "MÉTODOS NUMÉRICOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "300.19",
+                  "y": "267.65",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "357.07",
+                  "y": "267.65",
+                  "width": "14.76",
+                  "height": "8.04",
+                  "text": "2.91"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "422.14",
+                  "y": "267.65",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "39.96",
+                  "y": "287.09",
+                  "width": "198.29",
+                  "height": "8.04",
+                  "text": "PERIODO: 202351 PREGRADO S-II NOV 23 - MAR 24"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "300.89",
+                  "width": "17.06",
+                  "height": "8.04",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "70.34",
+                  "y": "300.89",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "136.82",
+                  "y": "300.89",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.75",
+                  "y": "300.89",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "359.95",
+                  "y": "300.89",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "426.46",
+                  "y": "300.89",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "313.97",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "29"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "70.34",
+                  "y": "313.97",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G07"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "136.82",
+                  "y": "313.97",
+                  "width": "86.43",
+                  "height": "8.04",
+                  "text": "PROGRAMACION WEB"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.75",
+                  "y": "313.97",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "359.95",
+                  "y": "313.97",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "15.28"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "426.46",
+                  "y": "313.97",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "327.17",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "30"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "70.34",
+                  "y": "327.17",
+                  "width": "47.52",
+                  "height": "8.04",
+                  "text": "COMPA0H02"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "136.82",
+                  "y": "327.17",
+                  "width": "125.43",
+                  "height": "8.04",
+                  "text": "SISTEMAS DE BASES DE DATOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.75",
+                  "y": "327.17",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "359.95",
+                  "y": "327.17",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.36"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "426.46",
+                  "y": "327.17",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "337.85",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "31"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "70.34",
+                  "y": "340.37",
+                  "width": "45.84",
+                  "height": "8.04",
+                  "text": "COMPA0J11"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "136.82",
+                  "y": "340.37",
+                  "width": "102.87",
+                  "height": "8.04",
+                  "text": "COMPUTACION PARALELA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.75",
+                  "y": "340.37",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "359.95",
+                  "y": "340.37",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.51"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "426.46",
+                  "y": "340.37",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "349.25",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "32"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "70.34",
+                  "y": "353.57",
+                  "width": "43.56",
+                  "height": "8.04",
+                  "text": "EXCTA0402"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "136.82",
+                  "y": "353.57",
+                  "width": "90.75",
+                  "height": "8.04",
+                  "text": "MÉTODOS NUMÉRICOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "301.75",
+                  "y": "353.57",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "359.95",
+                  "y": "353.57",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "14.23"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "426.46",
+                  "y": "353.57",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "39.96",
+                  "y": "373.01",
+                  "width": "0.00",
+                  "height": "8.04",
+                  "text": "PERIODO: 202450 PREGRADO S-I MAY 24 - SEP 24"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "383.81",
+                  "width": "16.70",
+                  "height": "9.96",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "386.81",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.50",
+                  "y": "386.81",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "386.81",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.39",
+                  "y": "386.81",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.18",
+                  "y": "386.81",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "395.33",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "33"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "400.01",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G09"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.50",
+                  "y": "400.01",
+                  "width": "120.63",
+                  "height": "8.04",
+                  "text": "DESARROLLO WEB AVANZADO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "400.01",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.39",
+                  "y": "400.01",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "17.61"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.18",
+                  "y": "400.01",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "413.23",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "34"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "413.23",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G10"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.50",
+                  "y": "413.23",
+                  "width": "128.19",
+                  "height": "8.04",
+                  "text": "ING. REQUISITOS DE SOFTWARE"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "413.23",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.39",
+                  "y": "413.23",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.70"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.18",
+                  "y": "413.23",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "429.79",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "35"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "426.43",
+                  "width": "47.52",
+                  "height": "8.04",
+                  "text": "COMPA0H04"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.50",
+                  "y": "426.43",
+                  "width": "143.79",
+                  "height": "8.04",
+                  "text": "SIS AVANZADOS DE BASES DE DATO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "426.43",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.39",
+                  "y": "426.43",
+                  "width": "14.76",
+                  "height": "8.04",
+                  "text": "9.93"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.18",
+                  "y": "426.43",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "439.63",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "36"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "439.63",
+                  "width": "44.04",
+                  "height": "8.04",
+                  "text": "COMPA0I08"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.50",
+                  "y": "439.63",
+                  "width": "93.75",
+                  "height": "8.04",
+                  "text": "SISTEMAS OPERATIVOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "439.63",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.39",
+                  "y": "439.63",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.31"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.18",
+                  "y": "439.63",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "452.71",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "37"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.78",
+                  "y": "452.71",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPS0G00"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "132.50",
+                  "y": "452.71",
+                  "width": "120.99",
+                  "height": "8.04",
+                  "text": "SERVICIO COMUNITARIO I ISOJ"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "309.67",
+                  "y": "452.71",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "364.39",
+                  "y": "452.71",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "19.20"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "427.18",
+                  "y": "452.71",
+                  "width": "97.22",
+                  "height": "8.04",
+                  "text": "APROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "475.87",
+                  "width": "195.04",
+                  "height": "9.96",
+                  "text": "PERIODO: 202451 PREGRADO S-II OCT 24 - MAR 25"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "486.07",
+                  "width": "17.06",
+                  "height": "8.04",
+                  "text": "ORD"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.66",
+                  "y": "486.07",
+                  "width": "31.80",
+                  "height": "8.04",
+                  "text": "CODIGO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "486.07",
+                  "width": "35.79",
+                  "height": "8.04",
+                  "text": "MATERIA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "316.75",
+                  "y": "486.07",
+                  "width": "40.56",
+                  "height": "8.04",
+                  "text": "CREDITOS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "371.47",
+                  "y": "486.07",
+                  "width": "48.03",
+                  "height": "8.04",
+                  "text": "NOTA FINAL"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "434.14",
+                  "y": "486.07",
+                  "width": "58.44",
+                  "height": "8.04",
+                  "text": "OBSERVACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "499.27",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "38"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.66",
+                  "y": "499.27",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G11"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "133.46",
+                  "y": "499.27",
+                  "width": "125.67",
+                  "height": "8.04",
+                  "text": "ANALISIS Y DISEÑO DE SOFTWA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "316.75",
+                  "y": "499.27",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "371.47",
+                  "y": "499.27",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "18.14"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "434.14",
+                  "y": "499.27",
+                  "width": "105.02",
+                  "height": "8.04",
+                  "text": "REPROBADO /EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "512.47",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "39"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.66",
+                  "y": "512.47",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G12"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "512.47",
+                  "width": "149.09",
+                  "height": "8.04",
+                  "text": "DESARROLLO DE APLICACIONES MOV"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "316.75",
+                  "y": "512.47",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "371.47",
+                  "y": "512.47",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "17.86"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "434.14",
+                  "y": "512.47",
+                  "width": "105.02",
+                  "height": "8.04",
+                  "text": "REPROBADO /EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "521.83",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "40"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.66",
+                  "y": "525.67",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G15"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "525.67",
+                  "width": "100.59",
+                  "height": "8.04",
+                  "text": "PRUEBAS DE SOFTWARE"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "316.75",
+                  "y": "525.67",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "371.47",
+                  "y": "525.67",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "15.11"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "434.14",
+                  "y": "525.67",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "42.73",
+                  "y": "533.35",
+                  "width": "8.03",
+                  "height": "9.96",
+                  "text": "41"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.66",
+                  "y": "538.75",
+                  "width": "48.00",
+                  "height": "8.04",
+                  "text": "COMPA0G16"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "538.75",
+                  "width": "116.19",
+                  "height": "8.04",
+                  "text": "APLICACIONES DISTRIBUIDAS"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "316.75",
+                  "y": "538.75",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "6"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "371.47",
+                  "y": "538.75",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "17.34"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "434.14",
+                  "y": "538.75",
+                  "width": "105.02",
+                  "height": "8.04",
+                  "text": "REPROBADO /EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "551.95",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "42"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.66",
+                  "y": "551.95",
+                  "width": "47.52",
+                  "height": "8.04",
+                  "text": "COMPA0H04"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "551.95",
+                  "width": "143.79",
+                  "height": "8.04",
+                  "text": "SIS AVANZADOS DE BASES DE DATO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "316.75",
+                  "y": "551.95",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "371.47",
+                  "y": "551.95",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.07"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "434.14",
+                  "y": "551.95",
+                  "width": "102.98",
+                  "height": "8.04",
+                  "text": "REPROBADO/EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "42.36",
+                  "y": "565.15",
+                  "width": "8.40",
+                  "height": "8.04",
+                  "text": "43"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "68.66",
+                  "y": "565.15",
+                  "width": "46.20",
+                  "height": "8.04",
+                  "text": "COMPA0L03"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "131.30",
+                  "y": "565.15",
+                  "width": "140.67",
+                  "height": "8.04",
+                  "text": "APL. BASADAS EN EL CONOCIMIENT"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "316.75",
+                  "y": "565.15",
+                  "width": "3.96",
+                  "height": "8.04",
+                  "text": "9"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "371.47",
+                  "y": "565.15",
+                  "width": "19.56",
+                  "height": "8.04",
+                  "text": "16.42"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "434.14",
+                  "y": "565.15",
+                  "width": "105.02",
+                  "height": "8.04",
+                  "text": "REPROBADO /EVALUACION"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "199.97",
+                  "y": "597.82",
+                  "width": "121.82",
+                  "height": "9.96",
+                  "text": "CRÉDITOS APROBADOS:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "334.99",
+                  "y": "597.82",
+                  "width": "15.96",
+                  "height": "9.96",
+                  "text": "276"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "199.97",
+                  "y": "617.74",
+                  "width": "56.88",
+                  "height": "9.96",
+                  "text": "PROMEDIO:"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "335.71",
+                  "y": "617.74",
+                  "width": "18.72",
+                  "height": "9.96",
+                  "text": "16.2"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "39.96",
+                  "y": "637.78",
+                  "width": "0.00",
+                  "height": "9.96",
+                  "text": "NOTA.-"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "39.96",
+                  "y": "655.78",
+                  "width": "0.00",
+                  "height": "9.96",
+                  "text": "1. Verifique la validez de este documento escaneando los códigos que están al final de este"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "449.62",
+                  "y": "655.78",
+                  "width": "51.36",
+                  "height": "9.96",
+                  "text": "documento."
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "180.05",
+                  "y": "687.82",
+                  "width": "180.85",
+                  "height": "9.96",
+                  "text": "(DESDE AQUÍ EN BLANCO HASTA LA"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "10.0",
+                  "x": "363.91",
+                  "y": "687.82",
+                  "width": "34.47",
+                  "height": "9.96",
+                  "text": "FIRMA)"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "150.02",
+                  "y": "801.00",
+                  "width": "66.15",
+                  "height": "6.96",
+                  "text": "MSc. Oscar Rubio G. MSc. Oscar Rubio G."
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "370.51",
+                  "y": "801.84",
+                  "width": "73.95",
+                  "height": "6.96",
+                  "text": "Dr. Marcelo Mejía Mena Dr. Marcelo Mejía Mena"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "120.02",
+                  "y": "809.88",
+                  "width": "138.15",
+                  "height": "6.96",
+                  "text": "DIRECTOR DE LA UNIDAD DE REGISTRO DIRECTOR DE LA UNIDAD DE REGISTRO"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "361.03",
+                  "y": "809.88",
+                  "width": "90.75",
+                  "height": "6.96",
+                  "text": "SECRETARIO ACADEMICO SECRETARIO ACADEMICO"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "39.96",
+                  "y": "818.64",
+                  "width": "40.46",
+                  "height": "8.04",
+                  "text": "Pág. 2 de 2 Pág. 2 de 2"
+                }
+              },
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "8.0",
+                  "x": "494.98",
+                  "y": "818.64",
+                  "width": "72.62",
+                  "height": "8.04",
+                  "text": "14-05-2025 2:18 PM 14-05-2025 2:18 PM"
+                }
+              }
+            ]
+          },
+          {
+            "column": [
+              {
+                "text": {
+                  "fontName": "Arial",
+                  "fontSize": "7.0",
+                  "x": "495.94",
+                  "y": "827.88",
+                  "width": "70.34",
+                  "height": "6.96",
+                  "text": "ESPEMATICO V:3.1.3 ESPEMATICO V:3.1.3"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
