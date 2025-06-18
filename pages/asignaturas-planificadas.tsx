@@ -251,17 +251,16 @@ const Copyright = styled.p`
   opacity: 0.8;
 `;
 
-interface ApprovedSubject {
+interface PlannedSubject {
   name: string;
   code: string;
   credits: number;
   period: string;
-  date: string;
 }
 
 interface Props {
   user: UserData;
-  subjects: ApprovedSubject[];
+  subjects: PlannedSubject[];
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async ({ req }) => {
@@ -279,10 +278,14 @@ export const getServerSideProps: GetServerSideProps<Props> = async ({ req }) => 
 
   const user: UserData = JSON.parse(token);
 
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  );
+
   const { data, error } = await supabase
-    .from('approved_subjects')
+    .from('planned_subjects')
     .select(`
-      registration_date,
       subjects (
         name,
         code,
@@ -303,8 +306,7 @@ export const getServerSideProps: GetServerSideProps<Props> = async ({ req }) => 
     name: entry.subjects.name,
     code: entry.subjects.code,
     credits: entry.subjects.credits,
-    period: entry.registration_periods.code,
-    date: entry.registration_date
+    period: entry.registration_periods.code
   }));
 
   return {
@@ -315,7 +317,7 @@ export const getServerSideProps: GetServerSideProps<Props> = async ({ req }) => 
   };
 };
 
-const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
+const AsignaturasPlanificadasPage: NextPage<Props> = ({ user, subjects }) => {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
 
   const handleLogout = async () => {
@@ -344,7 +346,7 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
             <span>{user.first_name}</span>
             <FiChevronDown />
           </UserButton>
-          
+
           <UserDropdown isOpen={isUserMenuOpen}>
             <Link href="/perfil" passHref>
               <DropdownItem onClick={() => setIsUserMenuOpen(false)}>
@@ -366,35 +368,25 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
       <Sidebar>
         <NavMenu>
           <Link href="/dashboard" passHref>
-            <NavItem>
-              <FiHome /> Inicio
-            </NavItem>
+            <NavItem><FiHome /> Inicio</NavItem>
           </Link>
           <Link href="/registro-asignaturas" passHref>
-            <NavItem>
-              <FiBook /> Registro de Asignaturas
-            </NavItem>
+            <NavItem><FiBook /> Registro de Asignaturas</NavItem>
           </Link>
           <Link href="/asignaturas-aprobadas" passHref>
-            <NavItem active>
-              <FiBook /> Mis Asignaturas
-            </NavItem>
+            <NavItem><FiBook /> Mis Asignaturas</NavItem>
           </Link>
           <Link href="/asignaturas-disponibles" passHref>
-            <NavItem>
-              <FiBook /> Mis Asignaturas Disponibles
-            </NavItem>
+            <NavItem><FiBook /> Asignaturas Disponibles</NavItem>
           </Link>
           <Link href="/asignaturas-planificadas" passHref>
-              <NavItem><FiBook /> Asignaturas Planificadas</NavItem>
-            </Link>
-                    
+            <NavItem active><FiBook /> Asignaturas Planificadas</NavItem>
+          </Link>
         </NavMenu>
       </Sidebar>
 
       <MainContent>
-        <Title>Mis Asignaturas Aprobadas</Title>
-
+        <Title>Mis Asignaturas Planificadas</Title>
         <Table>
           <thead>
             <tr>
@@ -402,7 +394,6 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
               <th>Nombre</th>
               <th>Créditos</th>
               <th>Periodo</th>
-              <th>Fecha de Registro</th>
             </tr>
           </thead>
           <tbody>
@@ -413,13 +404,12 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
                   <td>{subject.name}</td>
                   <td>{subject.credits}</td>
                   <td>{subject.period}</td>
-                  <td>{subject.date}</td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan={5} style={{ textAlign: 'center', padding: '1rem' }}>
-                  No tienes asignaturas aprobadas registradas.
+                <td colSpan={4} style={{ textAlign: 'center', padding: '1rem' }}>
+                  No tienes asignaturas planificadas registradas.
                 </td>
               </tr>
             )}
@@ -434,7 +424,6 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
           <FooterLink href="#">Contacto</FooterLink>
           <FooterLink href="#">Soporte Técnico</FooterLink>
         </FooterLinks>
-        
         <Copyright>
           © 2025 Universidad de las Fuerzas Armadas ESPE. Todos los derechos reservados.
         </Copyright>
@@ -443,4 +432,4 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
   );
 };
 
-export default AsignaturasAprobadasPage;
+export default AsignaturasPlanificadasPage;

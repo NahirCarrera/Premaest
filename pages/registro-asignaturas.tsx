@@ -461,6 +461,7 @@ const SubjectRegistrationPage: NextPage<SubjectRegistrationProps> = ({ user }) =
       });
     } finally {
       setIsUploading(false);
+      window.location.assign('/asignaturas-aprobadas');
     }
   };
 
@@ -468,14 +469,14 @@ const SubjectRegistrationPage: NextPage<SubjectRegistrationProps> = ({ user }) =
     <DashboardContainer>
       <Header>
         <Logo>
-          <Image 
-            src="/images/logo_espe.png" 
-            alt="Logo PREMAEST" 
-            width={120} 
-            height={40}
-          />
-          <h1>PREMAEST</h1>
-        </Logo>
+                  <Image 
+                    src="/images/logo-banner.webp" 
+                    alt="Logo PREMAEST" 
+                    width={120} 
+                    height={40}
+                  />
+                  
+                </Logo>
         
         <UserMenu>
           <UserButton onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}>
@@ -521,6 +522,15 @@ const SubjectRegistrationPage: NextPage<SubjectRegistrationProps> = ({ user }) =
               <FiBook /> Mis Asignaturas
             </NavItem>
           </Link>
+          <Link href="/asignaturas-disponibles" passHref>
+            <NavItem>
+              <FiBook /> Mis Asignaturas Disponibles
+            </NavItem>
+          </Link>
+          <Link href="/asignaturas-planificadas" passHref>
+              <NavItem><FiBook /> Asignaturas Planificadas</NavItem>
+            </Link>
+                    
         </NavMenu>
       </Sidebar>
 
@@ -582,7 +592,7 @@ const SubjectRegistrationPage: NextPage<SubjectRegistrationProps> = ({ user }) =
         </FooterLinks>
         
         <Copyright>
-          © {new Date().getFullYear()} Universidad de las Fuerzas Armadas ESPE. Todos los derechos reservados.
+          © 2025 Universidad de las Fuerzas Armadas ESPE. Todos los derechos reservados.
         </Copyright>
       </Footer>
     </DashboardContainer>

@@ -135,12 +135,12 @@ def transform_json_format(original_json):
 
     return {"document": {"page": transformed_json}}
 
-def extract_last_period_subjects(json_data):
+def extract_all_approved_subjects(json_data):
     try:
-        logger.info("Extrayendo materias del último período...")
+        logger.info("Extrayendo todas las materias aprobadas del historial...")
         pages = json_data.get("document", {}).get("page", [])
 
-        periods = defaultdict(list)
+        all_subjects = []
         current_period = None
 
         def extract_text(cell):
@@ -156,41 +156,50 @@ def extract_last_period_subjects(json_data):
                 if not full_text:
                     continue
 
+                # Buscar el período actual
                 period_match = re.search(r"PERIODO:\s*(\d{6})", full_text, re.IGNORECASE)
                 if period_match:
                     current_period = period_match.group(1)
                     continue
 
+                # Procesar filas de materias aprobadas
                 if current_period and len(texts) >= 6:
                     try:
-                        if texts[0].isdigit() and texts[5].strip() == "APROBADO/EVALUACION":
+                        if texts[0].isdigit() and "APROBADO" in texts[-1].upper():
                             code = texts[1].strip()
-                            subject = texts[2].strip()
-                            credits = int(texts[3]) if texts[3].isdigit() else 0
-                            grade = float(texts[4]) if re.match(r"^\d+\.?\d*$", texts[4]) else 0.0
-                            status = texts[5].strip()
 
-                            periods[current_period].append({
+                            # Reconstruir nombre de la materia (puede estar entre columnas 2 hasta antepenúltima)
+                            name_parts = texts[2:-3]
+                            subject_name = " ".join(name_parts).strip()
+
+                            credits_raw = texts[-3].strip()
+                            grade_raw = texts[-2].strip()
+                            status = texts[-1].strip()
+
+                            credits = int(credits_raw) if credits_raw.isdigit() else 0
+                            grade = float(grade_raw) if re.match(r"^\d+\.?\d*$", grade_raw) else 0.0
+
+                            all_subjects.append({
                                 "code": code,
-                                "name": subject,
+                                "name": subject_name,
                                 "credits": credits,
                                 "grade": grade,
                                 "status": status,
                                 "period_code": current_period
                             })
+
                     except (ValueError, IndexError) as e:
                         logger.warning(f"Error procesando fila: {full_text} - {str(e)}")
 
-        if not periods:
-            logger.warning("No se encontraron períodos académicos en el documento")
+        if not all_subjects:
+            logger.warning("No se encontraron materias aprobadas en el documento")
             return []
 
-        last_period = sorted(periods.items(), key=lambda x: x[0])[-1][1]
-        logger.info(f"Retornando {len(last_period)} materias del último período")
-        return last_period
+        logger.info(f"Retornando {len(all_subjects)} materias aprobadas del historial completo")
+        return all_subjects
 
     except Exception as e:
-        logger.error(f"Error en extract_last_period_subjects: {str(e)}")
+        logger.error(f"Error en extract_all_approved_subjects: {str(e)}")
         raise
 
 def insert_subjects(subjects, student_id):
@@ -200,62 +209,68 @@ def insert_subjects(subjects, student_id):
             return
 
         logger.info(f"Iniciando inserción para estudiante {student_id}")
-        period_code = subjects[0]['period_code']
         
-        # Buscar o crear período
-        period_query = supabase.table("registration_periods").select("period_id").eq("code", period_code).execute()
-        
-        if period_query.data:
-            period_id = period_query.data[0]['period_id']
-            logger.info(f"Período existente encontrado: {period_id}")
-        else:
-            logger.info(f"Creando nuevo período: {period_code}")
-            new_period = supabase.table("registration_periods").insert({
-                "code": period_code,
-                "start_date": str(date.today()),
-                "end_date": str(date.today()),
-                "admin_id": 1
-            }).execute()
-            period_id = new_period.data[0]['period_id']
-            logger.info(f"Período creado con ID: {period_id}")
+        # Eliminar TODAS las materias anteriores del estudiante (no solo del último período)
+        logger.info(f"Eliminando TODAS las materias anteriores del estudiante {student_id}")
+        supabase.table("approved_subjects").delete().eq("student_id", student_id).execute()
 
-        # Eliminar materias anteriores del estudiante para ese período
-        logger.info(f"Eliminando materias anteriores del estudiante {student_id} para el período {period_code}")
-        supabase.table("approved_subjects").delete().match({
-            "student_id": student_id,
-            "period_id": period_id
-        }).execute()
-
-        # Procesar materias
+        # Agrupar materias por período para optimizar las consultas
+        periods = {}
         for subject in subjects:
-            logger.info(f"Procesando materia: {subject['code']} - {subject['name']}")
-            
-            # Buscar materia existente
-            subject_query = supabase.table("subjects").select("subject_id").eq("code", subject["code"]).execute()
-            
-            if subject_query.data:
-                subject_id = subject_query.data[0]['subject_id']
-                logger.info(f"Materia existente encontrada: {subject_id}")
-            else:
-                logger.info("Creando nueva materia...")
-                new_subj = supabase.table("subjects").insert({
-                    "code": subject["code"],
-                    "name": subject["name"],
-                    "credits": subject["credits"],
-                    "level": 1
-                }).execute()
-                subject_id = new_subj.data[0]['subject_id']
-                logger.info(f"Materia creada con ID: {subject_id}")
+            period_code = subject['period_code']
+            if period_code not in periods:
+                periods[period_code] = []
+            periods[period_code].append(subject)
 
-            # Insertar relación aprobada
-            insert_result = supabase.table("approved_subjects").insert({
-                "registration_date": str(date.today()),
-                "student_id": student_id,
-                "subject_id": subject_id,
-                "period_id": period_id
-            }).execute()
+        # Procesar cada período
+        for period_code, period_subjects in periods.items():
+            # Buscar o crear período
+            period_query = supabase.table("registration_periods").select("period_id").eq("code", period_code).execute()
             
-            logger.info(f"Materia {subject['code']} asociada al estudiante")
+            if period_query.data:
+                period_id = period_query.data[0]['period_id']
+                logger.info(f"Período existente encontrado: {period_id}")
+            else:
+                logger.info(f"Creando nuevo período: {period_code}")
+                new_period = supabase.table("registration_periods").insert({
+                    "code": period_code,
+                    "start_date": str(date.today()),
+                    "end_date": str(date.today()),
+                    "admin_id": 3
+                }).execute()
+                period_id = new_period.data[0]['period_id']
+                logger.info(f"Período creado con ID: {period_id}")
+
+            # Procesar materias del período
+            for subject in period_subjects:
+                logger.info(f"Procesando materia: {subject['code']} - {subject['name']}")
+                
+                # Buscar materia existente
+                subject_query = supabase.table("subjects").select("subject_id").eq("code", subject["code"]).execute()
+                
+                if subject_query.data:
+                    subject_id = subject_query.data[0]['subject_id']
+                    logger.info(f"Materia existente encontrada: {subject_id}")
+                else:
+                    logger.info("Creando nueva materia...")
+                    new_subj = supabase.table("subjects").insert({
+                        "code": subject["code"],
+                        "name": subject["name"],
+                        "credits": subject["credits"],
+                        "level": 1  # Nivel por defecto, podría mejorarse
+                    }).execute()
+                    subject_id = new_subj.data[0]['subject_id']
+                    logger.info(f"Materia creada con ID: {subject_id}")
+
+                # Insertar relación aprobada
+                insert_result = supabase.table("approved_subjects").insert({
+                    "registration_date": str(date.today()),
+                    "student_id": student_id,
+                    "subject_id": subject_id,
+                    "period_id": period_id
+                }).execute()
+                
+                logger.info(f"Materia {subject['code']} asociada al estudiante para el período {period_code}")
 
         logger.info("Proceso de inserción completado exitosamente")
 
@@ -281,9 +296,9 @@ if __name__ == "__main__":
         # Paso 2: Convertir a JSON
         json_data = convert_pdf_to_json(uploaded_url)
         
-        # Paso 3: Extraer materias
-        subjects = extract_last_period_subjects(json_data)
-        logger.info(f"Materias extraídas:\n{json.dumps(subjects, indent=2, ensure_ascii=False)}")
+        # Paso 3: Extraer TODAS las materias aprobadas
+        subjects = extract_all_approved_subjects(json_data)
+        logger.info(f"Materias aprobadas extraídas:\n{json.dumps(subjects, indent=2, ensure_ascii=False)}")
         
         # Paso 4: Insertar en Supabase
         insert_subjects(subjects, student_id)

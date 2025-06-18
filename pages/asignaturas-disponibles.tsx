@@ -251,17 +251,21 @@ const Copyright = styled.p`
   opacity: 0.8;
 `;
 
-interface ApprovedSubject {
-  name: string;
-  code: string;
-  credits: number;
-  period: string;
-  date: string;
+interface AvailableSubject {
+  subject_id: number;
+  subject_name: string;
+  subject_code: string;
+  subject_credits: number;
+  subject_level: number;
+  has_prerequisites: boolean;
 }
 
 interface Props {
   user: UserData;
-  subjects: ApprovedSubject[];
+  subjects: AvailableSubject[];
+  plannedSubjectIds: number[];
+  currentPeriodId: number;
+  currentPeriodCode: string;
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async ({ req }) => {
@@ -279,62 +283,168 @@ export const getServerSideProps: GetServerSideProps<Props> = async ({ req }) => 
 
   const user: UserData = JSON.parse(token);
 
-  const { data, error } = await supabase
-    .from('approved_subjects')
-    .select(`
-      registration_date,
-      subjects (
-        name,
-        code,
-        credits
-      ),
-      registration_periods (
-        code
-      )
-    `)
-    .eq('student_id', user.id);
+  // Obtener el período académico actual
+  const { data: currentPeriod, error: periodError } = await supabase
+    .from('registration_periods')
+    .select('period_id, code')
+    .order('start_date', { ascending: false })
+    .limit(1)
+    .single();
 
-  if (error) {
-    console.error(error);
-    return { props: { user, subjects: [] } };
+  if (periodError || !currentPeriod) {
+    console.error('Error al obtener período actual:', periodError);
+    return { 
+      props: { 
+        user,
+        subjects: [],
+        plannedSubjectIds: [],
+        currentPeriodId: 0,
+        currentPeriodCode: ''
+      } 
+    };
   }
 
-  const subjects = data.map((entry: any) => ({
-    name: entry.subjects.name,
-    code: entry.subjects.code,
-    credits: entry.subjects.credits,
-    period: entry.registration_periods.code,
-    date: entry.registration_date
-  }));
+  // Obtener asignaturas disponibles
+  const { data: subjects, error: subjectsError } = await supabase
+    .rpc('get_available_subjects_for_user', { p_user_id: user.id });
+
+  if (subjectsError) {
+    console.error('Error al obtener asignaturas disponibles:', subjectsError);
+  }
+
+  // Obtener asignaturas ya planificadas para el usuario y período actual
+  const { data: plannedSubjects, error: plannedError } = await supabase
+    .from('planned_subjects')
+    .select('subject_id')
+    .eq('student_id', user.id)
+    .eq('period_id', currentPeriod.period_id);
+
+  if (plannedError) {
+    console.error('Error al obtener asignaturas planificadas:', plannedError);
+  }
 
   return {
     props: {
       user,
-      subjects
+      subjects: subjects || [],
+      plannedSubjectIds: plannedSubjects ? plannedSubjects.map(s => s.subject_id) : [],
+      currentPeriodId: currentPeriod.period_id,
+      currentPeriodCode: currentPeriod.code
     }
   };
 };
 
-const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
+const AsignaturasDisponiblesPage: NextPage<Props> = ({ 
+  user, 
+  subjects, 
+  plannedSubjectIds: initialPlannedSubjectIds, 
+  currentPeriodId, 
+  currentPeriodCode 
+}) => {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
+  const [selectedSubjects, setSelectedSubjects] = useState<number[]>(initialPlannedSubjectIds);
+  const [plannedSubjectIds, setPlannedSubjectIds] = useState<number[]>(initialPlannedSubjectIds);
+  const [isRegistering, setIsRegistering] = useState(false);
+  const [registrationStatus, setRegistrationStatus] = useState<{
+    success: boolean;
+    message: string;
+  } | null>(null);
 
   const handleLogout = async () => {
     await fetch('/api/logout', { method: 'POST' });
     window.location.href = '/login';
   };
 
+  const handleSelect = (subjectId: number) => {
+    setSelectedSubjects(prev =>
+      prev.includes(subjectId)
+        ? prev.filter(id => id !== subjectId)
+        : [...prev, subjectId]
+    );
+    setRegistrationStatus(null);
+  };
+
+  const registerSubjects = async () => {
+    setIsRegistering(true);
+    setRegistrationStatus(null);
+
+    try {
+      // Asignaturas nuevas seleccionadas ahora
+      const newSelected = selectedSubjects;
+      // Asignaturas previamente planificadas
+      const previouslyPlanned = plannedSubjectIds;
+
+      // Nuevas asignaturas a insertar
+      const toInsert = newSelected.filter(id => !previouslyPlanned.includes(id));
+      // Asignaturas a eliminar
+      const toDelete = previouslyPlanned.filter(id => !newSelected.includes(id));
+
+      // Insertar nuevas
+      if (toInsert.length > 0) {
+        const registrations = toInsert.map(subjectId => ({
+          registration_date: new Date().toISOString().split('T')[0],
+          student_id: user.id,
+          subject_id: subjectId,
+          period_id: currentPeriodId
+        }));
+
+        const { error: insertError } = await supabase
+          .from('planned_subjects')
+          .insert(registrations);
+
+        if (insertError) {
+          throw insertError;
+        }
+      }
+
+      // Eliminar desmarcadas
+      if (toDelete.length > 0) {
+        const { error: deleteError } = await supabase
+          .from('planned_subjects')
+          .delete()
+          .match({ student_id: user.id, period_id: currentPeriodId })
+          .in('subject_id', toDelete);
+
+        if (deleteError) {
+          throw deleteError;
+        }
+      }
+
+      setRegistrationStatus({
+        success: true,
+        message: `Asignaturas actualizadas exitosamente para el período ${currentPeriodCode}`
+      });
+
+      // Actualizar estados para mantener sincronía
+      setPlannedSubjectIds([...newSelected]);
+      setSelectedSubjects([...newSelected]);
+
+    } catch (error) {
+      console.error('Error al actualizar asignaturas:', error);
+      setRegistrationStatus({
+        success: false,
+        message: 'Error al actualizar las asignaturas. Intente nuevamente.'
+      });
+    } finally {
+      setIsRegistering(false);
+      //redireccionar a la pagina de asignaturas planificadas sin window.location.href
+        window.location.assign('/asignaturas-planificadas');
+      
+    }
+  };
+
   return (
     <PageContainer>
       <Header>
         <Logo>
-          <Image 
-            src="/images/logo-banner.webp" 
-            alt="Logo PREMAEST" 
-            width={120} 
-            height={40}
-          />
-          
-        </Logo>
+                  <Image 
+                    src="/images/logo-banner.webp" 
+                    alt="Logo PREMAEST" 
+                    width={120} 
+                    height={40}
+                  />
+                  
+                </Logo>
 
         <UserMenu>
           <UserButton onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}>
@@ -376,55 +486,112 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
             </NavItem>
           </Link>
           <Link href="/asignaturas-aprobadas" passHref>
-            <NavItem active>
+            <NavItem>
               <FiBook /> Mis Asignaturas
             </NavItem>
           </Link>
           <Link href="/asignaturas-disponibles" passHref>
-            <NavItem>
+            <NavItem active>
               <FiBook /> Mis Asignaturas Disponibles
             </NavItem>
           </Link>
           <Link href="/asignaturas-planificadas" passHref>
-              <NavItem><FiBook /> Asignaturas Planificadas</NavItem>
+                <NavItem><FiBook /> Asignaturas Planificadas</NavItem>
             </Link>
                     
         </NavMenu>
       </Sidebar>
 
       <MainContent>
-        <Title>Mis Asignaturas Aprobadas</Title>
+        <Title>Asignaturas Disponibles para Registro</Title>
+        
+        {currentPeriodCode && (
+          <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+            <strong>Período académico actual:</strong> {currentPeriodCode}
+          </div>
+        )}
 
         <Table>
           <thead>
             <tr>
+              <th>Seleccionar</th>
               <th>Código</th>
               <th>Nombre</th>
               <th>Créditos</th>
-              <th>Periodo</th>
-              <th>Fecha de Registro</th>
+              <th>Nivel</th>
+              <th>Prerrequisitos</th>
             </tr>
           </thead>
           <tbody>
             {subjects.length > 0 ? (
-              subjects.map((subject, i) => (
-                <tr key={i}>
-                  <td>{subject.code}</td>
-                  <td>{subject.name}</td>
-                  <td>{subject.credits}</td>
-                  <td>{subject.period}</td>
-                  <td>{subject.date}</td>
+              subjects.map((subject) => (
+                <tr key={subject.subject_id}>
+                  <td>
+                    <input
+                      type="checkbox"
+                      onChange={() => handleSelect(subject.subject_id)}
+                      checked={selectedSubjects.includes(subject.subject_id)}
+                    />
+                  </td>
+                  <td>{subject.subject_code}</td>
+                  <td>{subject.subject_name}</td>
+                  <td>{subject.subject_credits}</td>
+                  <td>{subject.subject_level}</td>
+                  <td>{subject.has_prerequisites ? 'Sí' : 'No'}</td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan={5} style={{ textAlign: 'center', padding: '1rem' }}>
-                  No tienes asignaturas aprobadas registradas.
+                <td colSpan={6} style={{ textAlign: 'center', padding: '1rem' }}>
+                  No tienes asignaturas disponibles para registrar.
                 </td>
               </tr>
             )}
           </tbody>
         </Table>
+
+        {selectedSubjects.length > 0 && (
+          <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
+            <button
+              onClick={registerSubjects}
+              disabled={isRegistering}
+              style={{
+                padding: '0.75rem 1.5rem',
+                backgroundColor: colors.primary,
+                color: colors.white,
+                border: 'none',
+                borderRadius: '8px',
+                cursor: 'pointer',
+                fontWeight: '600',
+                fontSize: '1rem',
+                transition: 'all 0.2s ease',
+                opacity: isRegistering ? 0.7 : 1
+              }}
+            >
+              {isRegistering ? 'Registrando...' : `Registrar ${selectedSubjects.length} asignatura(s)`}
+            </button>
+          </div>
+        )}
+
+        {registrationStatus && (
+          <div style={{
+            marginTop: '1rem',
+            padding: '1rem',
+            backgroundColor: registrationStatus.success 
+              ? 'rgba(40, 167, 69, 0.1)' 
+              : 'rgba(220, 53, 69, 0.1)',
+            borderLeft: `4px solid ${registrationStatus.success 
+              ? colors.success 
+              : colors.danger}`,
+            borderRadius: '4px',
+            color: registrationStatus.success 
+              ? colors.success 
+              : colors.danger,
+            textAlign: 'center'
+          }}>
+            {registrationStatus.message}
+          </div>
+        )}
       </MainContent>
 
       <Footer>
@@ -443,4 +610,4 @@ const AsignaturasAprobadasPage: NextPage<Props> = ({ user, subjects }) => {
   );
 };
 
-export default AsignaturasAprobadasPage;
+export default AsignaturasDisponiblesPage;
