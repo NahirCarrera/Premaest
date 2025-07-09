@@ -96,7 +96,7 @@ def convert_pdf_to_json(pdf_url):
         with open(debug_path, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, indent=2, ensure_ascii=False)
         logger.info(f"Datos de depuración guardados en: {debug_path}")
-        logger.info(f"Datos JSON obtenidos:\n{json.dumps(json_data, indent=2, ensure_ascii=False)}")
+        #logger.info(f"Datos JSON obtenidos:\n{json.dumps(json_data, indent=2, ensure_ascii=False)}")
         return json_data
     except Exception as e:
         logger.error(f"Error en convert_pdf_to_json: {str(e)}")
@@ -243,7 +243,7 @@ def insert_subjects(subjects, student_id):
 
             # Procesar materias del período
             for subject in period_subjects:
-                logger.info(f"Procesando materia: {subject['code']} - {subject['name']}")
+                #logger.info(f"Procesando materia: {subject['code']} - {subject['name']}")
                 
                 # Buscar materia existente
                 subject_query = supabase.table("subjects").select("subject_id").eq("code", subject["code"]).execute()
@@ -252,7 +252,7 @@ def insert_subjects(subjects, student_id):
                     subject_id = subject_query.data[0]['subject_id']
                     logger.info(f"Materia existente encontrada: {subject_id}")
                 else:
-                    logger.info("Creando nueva materia...")
+                    #logger.info("Creando nueva materia...")
                     new_subj = supabase.table("subjects").insert({
                         "code": subject["code"],
                         "name": subject["name"],
