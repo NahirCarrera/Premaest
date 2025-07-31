@@ -20,6 +20,8 @@ logger = logging.getLogger(__name__)
 
 # Cargar credenciales
 try:
+    API_KEY = "sk_test_51FakeKeyExample1234567890"
+
     SUPABASE_URL = os.environ.get("SUPABASE_URL")
     SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
     
